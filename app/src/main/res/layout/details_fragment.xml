@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="#dddd"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/bt_details_xiangqing"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="产品详情"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:textColor="#ff0088"/>
+        <Button
+            android:id="@+id/bt_details_canshu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="产品参数"
+            android:background="#fff"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/bt_details_pinglun"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="评论"
+            android:background="#fff"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/fl_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+
+</LinearLayout>
